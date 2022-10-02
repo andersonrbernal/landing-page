@@ -35,15 +35,24 @@
     background-image: none;
 }
 
-.products-button {
+.btn {
     text-decoration: none;
     color: var(--white);
     background-color: var(--primary);
     padding: 0.3rem 0.85rem;
     width: fit-content;
-    margin: 1rem 0;
     border-radius: 1rem;
     margin: auto 0.8rem;
+    transition: 180ms;
+}
+
+.btn:hover {
+    transform: translateX(10px);
+    background-color: var(--hover);
+}
+
+.btn:active {
+    background-color: var(--active);
 }
 
 .social-media {
@@ -62,11 +71,21 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    transition: 140ms;
 }
 
 .social-media a img {
     filter: invert(1);
     transform: scale(0.5);
+}
+
+.social-media a:hover {
+    background-color: var(--hover);
+    transform: translateX(10px);
+}
+
+.social-media a:active {
+    background-color: var(--active);
 }
 
 #soda-1 {
