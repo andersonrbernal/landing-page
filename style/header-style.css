@@ -1,0 +1,33 @@
+/* Navagation Bar */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: none;
+}
+
+.logo {
+    width: 6.875rem;
+    height: 2.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu span {
+    width: 30px;
+    height: 1px;
+    background-color: var(--white);
+}
+
+.menu:active span {
+    display: none;
+}

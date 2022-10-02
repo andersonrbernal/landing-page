@@ -1,0 +1,92 @@
+/* Landing Page */
+
+.presentation {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
+
+/* Title */
+
+.title-wrapper {
+    margin: auto;
+}
+
+.title {
+    color: var(--white);
+    font-size: 2rem;
+    text-align: left;
+    line-height: 4.2rem;
+}
+
+.strong-title {
+    color: var(--primary);
+    font-size: 6rem;
+    text-align: left;
+}
+
+/* Paragraph */
+
+.paragraph {
+    color: var(--white);
+    font-size: 0.9rem;
+    text-align: left;
+    margin: auto 0.8rem;
+    background-image: none;
+}
+
+.products-button {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 0.3rem 0.85rem;
+    width: fit-content;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    margin: auto 0.8rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    margin: 1.2rem 0.5rem;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--icons-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.social-media a img {
+    filter: invert(1);
+    transform: scale(0.5);
+}
+
+#soda-1 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 7rem;
+    transform: rotate(-15deg);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+    clip-path: circle(50% at bottom right);
+    z-index: -2;
+    overflow: hidden;
+}
